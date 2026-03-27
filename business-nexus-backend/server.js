@@ -21,7 +21,8 @@ const app = express();
 // --- CORRECTED CORS FOR VERCEL ---
 const allowedOrigins = [
   'http://localhost:5173', // Local Vite development
-  'https://your-frontend-domain.vercel.app' // REPLACE with your actual frontend Vercel URL
+  'https://businessnexus.vercel.app',
+  'https://nexus-business-beta.vercel.app'
 ];
 
 app.use(cors({
